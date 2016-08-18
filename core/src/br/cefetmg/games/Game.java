@@ -15,12 +15,9 @@ public class Game extends ApplicationAdapter {
     @Override
     public void create() {
         batch = new SpriteBatch();
-        goomba = new Goomba(new Texture("goomba-spritesheet.png"));
-        map = new Texture("map.png");
     }
 
     public void update() {
-        goomba.update();
     }
     
     @Override
@@ -32,8 +29,7 @@ public class Game extends ApplicationAdapter {
         update();
         
         batch.begin();
-        batch.draw(map, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-        goomba.render(batch);
+        // desenhos são realizados aqui
         batch.end();
     }
 
