@@ -68,6 +68,9 @@ Agora você deve possibilitar o jogador a controlar a posição do Goomba.
    personagem não saia da tela
    - Basta garantir que sua posição `x` está entre
      [`0`, `LARGURA_DA_TELA - LARGURA_GOOMBA`] e o análogo para `y`
+     - Para pegar a largura e altura da janela podemos usar `Gdx.graphics.getWidth()` e `Gdx.graphics.getHeight()`
+     - Esta não é uma solução boa (redimensione a janela e veja o que
+       acontece), mas por ora está ok.
 
 
 ### Exercício 4: refatorando o código do Goomba
