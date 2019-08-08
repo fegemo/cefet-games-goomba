@@ -218,4 +218,4 @@ Assim que estiver pronto, chame o professor para que possa ver seu trabalho.
 [tutorial-animacao]: http://www.gamefromscratch.com/post/2013/12/09/LibGDX-Tutorial-3B-Simple-Animation.aspx
 [gdx-utils]: https://bitbucket.org/dermetfan/libgdx-utils/wiki/net.dermetfan.gdx.graphics.g2d.AnimatedSprite
 [gdx-utils-instalar]: https://bitbucket.org/dermetfan/libgdx-utils/wiki/Dependency%20Instructions
-[multi-animated-sprite]: https://github.com/fegemo/cefet-games-brushmyteethplz/blob/master/core/src/br/cefetmg/games/graphics/MultiAnimatedSprite.java#L11
+[multi-animated-sprite]: https://github.com/fegemo/cefet-games-meow-au/blob/master/core/src/br/cefetmg/games/graphics/MultiAnimatedSprite.java#L11
